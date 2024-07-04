@@ -16,9 +16,9 @@ namespace LocalStorage
     public class LocalStorage : ResoniteMod
     {
         public override string Name => "LocalStorage";
-        public override string Author => "art0007i";
+        public override string Author => "art0007i, SteeveMonkey";
         public override string Version => "2.0.3";
-        public override string Link => "https://github.com/art0007i/LocalStorage/";
+        public override string Link => "https://github.com/SteeveMonkey/LocalStorage/";
 
         [AutoRegisterConfigKey]
         public static ModConfigurationKey<string> REC_PATH_KEY = new ModConfigurationKey<string>(
